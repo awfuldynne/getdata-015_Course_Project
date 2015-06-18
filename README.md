@@ -5,8 +5,11 @@
 * reshape2
 * dplyr
 
+#### Summary
+* run_analysis.R combines the test and training data sets from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip and creates a tidy data set of the average of each mean or std deviation of a variable for each subject, activity pair.
+
 #### Script Preparation
-* run_analysis.R assumes that the contents of the zipfile located at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip have been unpacked in your current working directory.
+* run_analysis.R assumes that the contents of the zipfile linked above have been unpacked in your current working directory.
 * If either the reshape2 or dplyr package isn't installed, run_analysis.R will attempt to install them.
 
 #### What the Script Does
