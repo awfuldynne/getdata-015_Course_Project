@@ -14,19 +14,12 @@ The purpose of this project is to take the data https://d396qusza40orc.cloudfron
 2. activity - The name of the activity being performed:
 
 	WALKING
-
 	WALKING_UPSTAIRS
-
 	WALKING_DOWNSTAIRS
-
 	SITTING
-
 	STANDING
-
 	LAYING
-
 	
-
 3. variable - The name of the measurement being taken during the activity
 	*tBodyAcc-mean()-X
 	*tBodyAcc-mean()-Y
